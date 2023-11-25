@@ -6,7 +6,7 @@ export default async function CommandHandler(interaction: Interaction) {
         try {
             const command = CommandData().find((cmd) => cmd.data.name === interaction.commandName)
 
-            if (!command) {
+            if (!command || !command.run || typeof command.run !== "function") {
                 return interaction.reply({
                     embeds: [
                         {
