@@ -23,4 +23,4 @@ Open Terminal and run this following command to start your bot
 
 ## Support 
 
-If you encounter any problems or have questions, feel free to ask on our [Support Server](https://dsc.gg/SoftwareXPlus)
+If you encounter any problems or have questions, feel free to ask on our Support Server
