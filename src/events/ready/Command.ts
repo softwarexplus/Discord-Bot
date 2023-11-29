@@ -2,7 +2,7 @@ import { Client, Collection, REST, RESTPostAPIApplicationCommandsJSONBody, Route
 import config from "../../../config.json"
 import Commands from "../../Utils/Handler/Commands"
 
-export default async function (client: x) {
+export default async function (client: Client<true>) {
     const rest = new REST().setToken(config.token)
     const commands: Array<RESTPostAPIApplicationCommandsJSONBody> = []
     const TestCommands: Array<RESTPostAPIApplicationCommandsJSONBody> = []
